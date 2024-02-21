@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+/* navbar starting */
+.herader {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Imgs/header-image.png");
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+.b1 {
+
+    border: 1px solid white;
+    padding: 8px 30px;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    border-radius: 4px;
+
+}
+
+.b2 {
+    border: 0;
+    border-radius: 4px;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+
+}
+
+.b2 a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* navbar ending */
+
+/* center text starting */
+.center-text {
+    text-align: center;
+}
+
+div.center-text h1 {
+    text-align: center;
+    margin-top: 220px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    word-spacing: 0.1px;
+
+}
+
+div.center-text p {
+    margin-top: 25px;
+    font-size: 22px;
+    letter-spacing: 0.1px;
+}
+
+.center-text button {
+    margin-top: 25px;
+    padding: 15px 60px 15px 60px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.center-text input {
+    margin-top: 25px;
+    padding: 15px 60px 15px 60px;
+    background: rgba(0, 0, 0, 0.421);
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    font-size: large;
+    font-weight: 700;
+}
+
+/* center text ending */
+
+
+/* feature 1 starting */
+
+div.feature1 {
+
+    padding: 60px 12px;
+    font-size: 22px;
+    display: flex;
+    border-top: 10px solid rgba(75, 73, 73, 0.366);
+
+}
+
+div.text-col {
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+.text-col h1 {
+    display: block;
+}
+
+.text-col p {
+    display: block;
+}
+
+
+div.img-col {
+    width: 40%;
+    float: right;
+}
+
+div.img-col img {
+    display: inline-block;
+    width: 450px;
+    height: 350px;
+}
+
+/* feature 1 ending */
+
+/* feature 2 starting */
+
+div.feature2 {
+    display: flex;
+    border-top: 10px solid rgba(75, 73, 73, 0.366);
+    padding: 60px 12px;
+    font-size: 22px;
+}
+
+.img-col2 {
+    width: 50%;
+    float: left;
+
+}
+
+.img-col2 img {
+    display: inline-block;
+    width: 450px;
+    height: 350px;
+    margin-left: 80px;
+}
+
+.text-col2 {
+    margin-top: 60px;
+    margin-left: 80px;
+    float: right;
+    width: 60%;
+
+}
+
+/* feature 2 ending */
+
+/* feature 3 starting */
+
+div.feature3 {
+    
+    display: flex;
+    border-top: 10px solid rgba(75, 73, 73, 0.366);
+    padding: 60px 12px;
+    font-size: 22px;
+}
+
+
+.text-col3
+{
+    margin-top: 150px;
+    margin-left: 150px ;
+    display: block;
+}
+
+.img-col3 {
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+
+}
+
+.img-col3 img {
+    display: inline-block;
+    width: 450px;
+    height: 350px;
+    margin-left: 80px;
+}
+
+
+/* feature 3 ending */
+
+/*feature 4 starting */
+
+div.feature4 {
+    
+    display: flex;
+    border-top: 10px solid rgba(75, 73, 73, 0.366);
+    padding: 60px 12px;
+    font-size: 22px;
+}
+.img-col4 {
+    width: 50%;
+    float: left;
+    
+
+}
+
+.img-col4 img {
+
+    display: inline-block;
+    margin-left: 100px;
+    width: 450px;
+    height: 350px;
+    
+}
+
+.text-col4 {
+    margin-top: 80px;
+    margin-left: 80px;
+    float: right;
+    width: 6 0%;
+
+}
+
+.frequntly
+{
+    text-align: center;
+    border-top: 10px solid rgba(75, 73, 73, 0.366);
+    padding: 60px 12px;
+    font-size: 22px;
+}
+.frequntly h2{
+    font-size: 40px;
+    font-weight: 700px;
+    
+}
+
+.accordion
+{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+div.frequntly ul 
+{
+    list-style: none;
+}
+
+div.frequntly li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion label
+{
+
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+
+    
+}
+label::after
+{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    /* transition:transform: 0.5; */
+   /* this in case the above code is not working in my laptop */
+   /* so im not going do this rotate degree value in below code */
+}
+
+input[type="radio"]{
+    display: none;
+}
+.accordion .content
+{
+   background: #303030a8;
+   text-align: left;
+   padding: 0px 20px;
+   max-height: 0px;
+   overflow: hidden;
+   transition: max-height 0.5s,padding 0.5s;
+  
+}
+.accordion input[type="radio"]:checked + label + .content
+{
+    max-height:600px ;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after
+{ transform: rotate(135deg);
+    /* above code is not working */
+}
+
+.login
+{
+    text-align: center;
+    border-bottom: 10px solid #303030a8;
+
+}
+.login input
+{
+    margin-top: 25px;
+    padding: 15px 60px 15px 60px;
+    background: rgba(0, 0, 0, 0.421);
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.login button
+{
+    margin-top: 25px;
+    padding: 15px 60px 15px 60px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 60px;
+
+}
